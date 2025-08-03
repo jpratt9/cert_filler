@@ -1,5 +1,5 @@
 # cert_filler
-Adds all certifications listed in your LinkedIn profile to the BSCA Team Portal Certification System using Python &amp; Selenium.
+Adds all certifications listed in your LinkedIn profile to the Team Portal Certification System using Python &amp; Selenium.
 
 # usage
 - Install Python (https://www.python.org/downloads/)
