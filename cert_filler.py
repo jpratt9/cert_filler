@@ -142,8 +142,6 @@ def bsc_fmt_url(url):
     return clean_url
 
 # URLs and credentials for LinkedIn login
-cert_claim_url = "https://www.bscemployee.com/certificates/add-certificate-claim/"
-
 linkedin_email = input("Please enter your LinkedIn email: ")
 linkedin_pwd = getpass("Please enter your LinkedIn password: ")
 linkedin_user = input("Please enter your LinkedIn \"custom username\" (e.g., https://www.linkedin.com/in/jpratt444 -> jpratt444): ")
@@ -293,3 +291,4 @@ print(f"ERROR : Failed to add the following certs - {[d['cert_name'] for d in fa
 print("Finished entering all certifications. *IMPORTANT*: You will have to go back & enter dates (day of month) manually.")
 print("Please validate that no extra certifications were added in error.")
 input("Press any key to exit: ")
+
